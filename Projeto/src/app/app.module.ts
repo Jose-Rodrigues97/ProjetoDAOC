@@ -12,6 +12,7 @@ import { PorquedoarComponent } from './porquedoar-component/porquedoar.component
 import { ContatosComponent } from './contatos-component/contatos-component.component';
 import { CadastrodoadorComponentComponent } from './cadastrodoador-component/cadastrodoador-component.component';
 import { CadastronecessitadoComponentComponent } from './cadastronecessitado-component/cadastronecessitado-component.component';
+import { CadastroestabelecimentoComponentComponent } from './cadastroestabelecimento-component/cadastroestabelecimento-component.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CadastronecessitadoComponentComponent } from './cadastronecessitado-com
     PorquedoarComponent,
     ContatosComponent,
     CadastrodoadorComponentComponent,
-    CadastronecessitadoComponentComponent
+    CadastronecessitadoComponentComponent,
+    CadastroestabelecimentoComponentComponent
   ],
   imports: [
     BrowserModule,
