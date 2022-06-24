@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-porquedoar',
+  selector: 'app-porquedoar-component',
   templateUrl: './porquedoar.component.html',
   styleUrls: ['./porquedoar.component.scss']
 })
