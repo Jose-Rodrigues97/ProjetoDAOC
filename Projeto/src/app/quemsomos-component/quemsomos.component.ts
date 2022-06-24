@@ -11,6 +11,4 @@ export class QuemsomosComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
 }
-
