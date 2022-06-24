@@ -7,9 +7,10 @@ import { CardsComponent } from './cards-component/cards.component';
 import { CarouselComponentComponent } from './carousel-component/carousel-component.component';
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { FooterComponentComponent } from './footer-component/footer-component.component';
-import { QuemsomosComponent } from './quemsomos/quemsomos.component';
-import { PorquedoarComponent } from './porquedoar/porquedoar.component';
-import { ContatosComponentComponent } from './contatos-component/contatos-component.component';
+import { QuemsomosComponent } from './quemsomos-component/quemsomos.component';
+import { PorquedoarComponent } from './porquedoar-component/porquedoar.component';
+import { ContatosComponent } from './contatos-component/contatos-component.component';
+import { CadastrodoadorComponentComponent } from './cadastrodoador-component/cadastrodoador-component.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContatosComponentComponent } from './contatos-component/contatos-compon
     FooterComponentComponent,
     QuemsomosComponent,
     PorquedoarComponent,
-    ContatosComponentComponent
+    ContatosComponent,
+    CadastrodoadorComponentComponent
   ],
   imports: [
     BrowserModule,
