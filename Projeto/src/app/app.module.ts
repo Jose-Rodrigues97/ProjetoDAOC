@@ -11,6 +11,7 @@ import { QuemsomosComponent } from './quemsomos-component/quemsomos.component';
 import { PorquedoarComponent } from './porquedoar-component/porquedoar.component';
 import { ContatosComponent } from './contatos-component/contatos-component.component';
 import { CadastrodoadorComponentComponent } from './cadastrodoador-component/cadastrodoador-component.component';
+import { CadastronecessitadoComponentComponent } from './cadastronecessitado-component/cadastronecessitado-component.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CadastrodoadorComponentComponent } from './cadastrodoador-component/cad
     QuemsomosComponent,
     PorquedoarComponent,
     ContatosComponent,
-    CadastrodoadorComponentComponent
+    CadastrodoadorComponentComponent,
+    CadastronecessitadoComponentComponent
   ],
   imports: [
     BrowserModule,
