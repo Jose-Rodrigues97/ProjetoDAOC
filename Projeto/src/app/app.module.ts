@@ -13,6 +13,7 @@ import { ContatosComponent } from './contatos-component/contatos-component.compo
 import { CadastrodoadorComponentComponent } from './cadastrodoador-component/cadastrodoador-component.component';
 import { CadastronecessitadoComponentComponent } from './cadastronecessitado-component/cadastronecessitado-component.component';
 import { CadastroestabelecimentoComponentComponent } from './cadastroestabelecimento-component/cadastroestabelecimento-component.component';
+import { LoginComponentComponent } from './login-component/login-component.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CadastroestabelecimentoComponentComponent } from './cadastroestabelecim
     ContatosComponent,
     CadastrodoadorComponentComponent,
     CadastronecessitadoComponentComponent,
-    CadastroestabelecimentoComponentComponent
+    CadastroestabelecimentoComponentComponent,
+    LoginComponentComponent
   ],
   imports: [
     BrowserModule,
