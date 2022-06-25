@@ -1,6 +1,6 @@
 <header class="fixed-top">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div id="navbar-scrollspy" class="container-fluid">
         <a routerLink="" class="navbar-brand" href="#">Ação Solidária</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,11 +18,11 @@
               <a routerLink="/Contato" class="nav-link" href="#">Contato</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Cadastre-se
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
                 <li><a routerLink="/CadastroDoador" class="dropdown-item" href="#">Cadastro Doador</a></li>
                 <li><a routerLink="/CadastroNecessitado" class="dropdown-item" href="#">Cadastro Necessitado</a></li>
                 <li><a routerLink="/CadastroEstabelecimento" class="dropdown-item" href="#">Cadastro Estabelecimento</a></li>
@@ -33,3 +33,4 @@
       </div>
     </nav>
   </header>
+

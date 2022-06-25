@@ -1,3 +1,15 @@
 .accordion{
-    box-shadow: 0.2rem 0.2rem 0.2rem #000000;
+    box-shadow: 0.2rem 0.2rem 0.2rem;
+}
+
+.accordion-button{
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+    text-shadow: 0rem 0rem 0.2rem;
+}
+
+.accordion-body{   
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0rem 0rem 0.2rem;
 }
