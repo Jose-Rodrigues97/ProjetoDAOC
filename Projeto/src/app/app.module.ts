@@ -14,6 +14,7 @@ import { CadastrodoadorComponentComponent } from './Componentes/cadastrodoador-c
 import { CadastronecessitadoComponentComponent } from './Componentes/cadastronecessitado-component/cadastronecessitado-component.component';
 import { CadastroestabelecimentoComponentComponent } from './Componentes/cadastroestabelecimento-component/cadastroestabelecimento-component.component';
 import { LoginComponentComponent } from './Componentes/login-component/login-component.component';
+import { ListaparticipantesComponentComponent } from './listaparticipantes-component/listaparticipantes-component.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LoginComponentComponent } from './Componentes/login-component/login-com
     CadastrodoadorComponentComponent,
     CadastronecessitadoComponentComponent,
     CadastroestabelecimentoComponentComponent,
-    LoginComponentComponent
+    LoginComponentComponent,
+    ListaparticipantesComponentComponent
   ],
   imports: [
     BrowserModule,

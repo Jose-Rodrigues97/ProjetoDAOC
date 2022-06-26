@@ -1,1 +1,27 @@
-<p>login-component works!</p>
+<div class="container d-flex text-center p-4 divConteudo justify-content-evenly">
+    <label class="fs-4">Faça parte da equipe e ajude milhões de pessoas.</label>
+    <form class="g-0 formulario">
+        <div class="col-md-12">
+            <label for="validationServerEmail" class="form-label text-start visually-hidden">Email</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                <input type="email" class="form-control is-invalid" id="validationServerEmail"
+                    aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="E-mail" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Por favor, escolha um email válido.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <label for="inputPassword2 validationServer01" class="form-label visually-hidden">Senha</label>
+            <input type="password" class="form-control is-valid" id="validationServer01" placeholder="Senha" required>
+            <div class="valid-feedback">
+                Aprovado!
+            </div>
+        </div>
+        <div class="col-12 d-flex gap-2 justify-content-center mt-3">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+            <input class="btn btn-danger" type="reset" value="Limpar">
+        </div>
+    </form>
+</div>
