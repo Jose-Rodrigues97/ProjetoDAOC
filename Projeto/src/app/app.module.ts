@@ -14,7 +14,9 @@ import { CadastrodoadorComponentComponent } from './Componentes/cadastrodoador-c
 import { CadastronecessitadoComponentComponent } from './Componentes/cadastronecessitado-component/cadastronecessitado-component.component';
 import { CadastroestabelecimentoComponentComponent } from './Componentes/cadastroestabelecimento-component/cadastroestabelecimento-component.component';
 import { LoginComponentComponent } from './Componentes/login-component/login-component.component';
-import { ListaparticipantesComponentComponent } from './listaparticipantes-component/listaparticipantes-component.component';
+import { ListaparticipantesComponentComponent } from './Componentes/listaparticipantes-component/listaparticipantes-component.component';
+import { ListanecessitadosComponentComponent } from './listanecessitados-component/listanecessitados-component.component';
+import { ListaestabelecimentosComponentComponent } from './listaestabelecimentos-component/listaestabelecimentos-component.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ListaparticipantesComponentComponent } from './listaparticipantes-compo
     CadastronecessitadoComponentComponent,
     CadastroestabelecimentoComponentComponent,
     LoginComponentComponent,
-    ListaparticipantesComponentComponent
+    ListaparticipantesComponentComponent,
+    ListanecessitadosComponentComponent,
+    ListaestabelecimentosComponentComponent
   ],
   imports: [
     BrowserModule,

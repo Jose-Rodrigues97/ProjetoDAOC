@@ -1,12 +1,14 @@
 <app-header-component></app-header-component>
 <app-carousel-component></app-carousel-component>
-<div class="div-centralizador">
+<div class="div-centralizador d-flex">
     <div class="div-conteudo">
-        <div class="div-cards">
+        <div class="div-cards-conteudo">
             <app-cards-component></app-cards-component>
             <router-outlet></router-outlet>
         </div>
-        
     </div>
+</div>
+<div class="bggradient">
+    <router-outlet></router-outlet>
 </div>
 <app-footer-component></app-footer-component>
