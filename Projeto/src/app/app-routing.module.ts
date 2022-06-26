@@ -14,16 +14,19 @@ import { QuemsomosComponent } from './Componentes/quemsomos-component/quemsomos.
 const routes: Routes = [
   {
     path: 'Login',
-    component: LoginComponentComponent
+    component: LoginComponentComponent,
   }, {
     path: 'Colaboradores',
-    component: ListaparticipantesComponentComponent
+    component: ListaparticipantesComponentComponent,
+    outlet: "outlet2"
   }, {
     path: 'Estabelecimentos',
-    component: ListaestabelecimentosComponentComponent
+    component: ListaestabelecimentosComponentComponent,
+    outlet: "outlet2"
   }, {
     path: 'Necessitados',
-    component: ListanecessitadosComponentComponent
+    component: ListanecessitadosComponentComponent,
+    outlet: "outlet2"
   },
   {
     path: 'QuemSomos',
