@@ -1,1 +1,53 @@
-<p>listanecessitados-component works!</p>
+<table class="table table-dark table-hover mb-1">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Telefone</th>
+      <th scope="col">Endereço</th>
+      <th scope="col">Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td class="d-flex gap-2">
+        <fa-icon [icon]="fapentosquare"></fa-icon>
+        <fa-icon [icon]="fatrash"></fa-icon>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td class="d-flex gap-2">
+        <fa-icon [icon]="fapentosquare"></fa-icon>
+        <fa-icon [icon]="fatrash"></fa-icon>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+      <td class="d-flex gap-2">
+        <fa-icon [icon]="fapentosquare"></fa-icon>
+        <fa-icon [icon]="fatrash"></fa-icon>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div class="container d-flex p-0 justify-content-end">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+    </ul>
+  </nav>
+</div>

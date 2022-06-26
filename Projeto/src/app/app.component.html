@@ -1,14 +1,26 @@
 <app-header-component></app-header-component>
 <app-carousel-component></app-carousel-component>
 <div class="div-centralizador d-flex">
-    <div class="div-conteudo">
-        <div class="div-cards-conteudo">
-            <app-cards-component></app-cards-component>
-            <router-outlet></router-outlet>
-        </div>
+  <div class="div-conteudo">
+    <div class="div-cards-conteudo">
+      <app-cards-component></app-cards-component>
+      <router-outlet></router-outlet>
     </div>
+  </div>
 </div>
-<div class="bggradient">
-    <router-outlet></router-outlet>
+<div class="bggradient p-4">
+  <div class="container">
+    <ul class="nav nav-pills mb-1">
+      <li class="nav-item">
+        <a [routerLink]="['/Colaboradores']" class="nav-link active" aria-current="page">Colaboradores</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/Estabelecimentos']" class="nav-link">Estabelecimentos</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/Necessitados']" class="nav-link">Necessitados</a>
+      </li>
+    </ul>
+  </div>
 </div>
 <app-footer-component></app-footer-component>

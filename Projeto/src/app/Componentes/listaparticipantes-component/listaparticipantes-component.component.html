@@ -1,59 +1,53 @@
-<div class="bggradient p-4">
-  <div class="container">
-    <ul class="nav nav-pills mb-1">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Colaboradores</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Estabelecimentos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Necessitados</a>
-      </li>
+<table class="table table-dark table-hover mb-1">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Telefone</th>
+      <th scope="col">Endereço</th>
+      <th scope="col">Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td class="d-flex gap-2">
+        <fa-icon [icon]="fapentosquare"></fa-icon>
+        <fa-icon [icon]="fatrash"></fa-icon>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td class="d-flex gap-2">
+        <fa-icon [icon]="fapentosquare"></fa-icon>
+        <fa-icon [icon]="fatrash"></fa-icon>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+      <td class="d-flex gap-2">
+        <fa-icon [icon]="fapentosquare"></fa-icon>
+        <fa-icon [icon]="fatrash"></fa-icon>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div class="container d-flex p-0 justify-content-end">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
     </ul>
-    <table class="table table-dark table-hover mb-1">
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Nome</th>
-          <th scope="col">Telefone</th>
-          <th scope="col">Endereço</th>
-          <th scope="col">Ações</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td colspan="2">Larry the Bird</td>
-          <td>@twitter</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="container d-flex p-0 justify-content-end">
-      <nav aria-label="Page navigation example">
-        <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+  </nav>
 </div>

@@ -3,8 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { CadastrodoadorComponentComponent } from './Componentes/cadastrodoador-component/cadastrodoador-component.component';
 import { CadastroestabelecimentoComponentComponent } from './Componentes/cadastroestabelecimento-component/cadastroestabelecimento-component.component';
 import { CadastronecessitadoComponentComponent } from './Componentes/cadastronecessitado-component/cadastronecessitado-component.component';
-import { CardsComponent } from './Componentes/cards-component/cards.component';
 import { ContatosComponent } from './Componentes/contatos-component/contatos-component.component';
+import { ListaestabelecimentosComponentComponent } from './Componentes/listaestabelecimentos-component/listaestabelecimentos-component.component';
+import { ListanecessitadosComponentComponent } from './Componentes/listanecessitados-component/listanecessitados-component.component';
+import { ListaparticipantesComponentComponent } from './Componentes/listaparticipantes-component/listaparticipantes-component.component';
 import { LoginComponentComponent } from './Componentes/login-component/login-component.component';
 import { PorquedoarComponent } from './Componentes/porquedoar-component/porquedoar.component';
 import { QuemsomosComponent } from './Componentes/quemsomos-component/quemsomos.component';
@@ -12,7 +14,16 @@ import { QuemsomosComponent } from './Componentes/quemsomos-component/quemsomos.
 const routes: Routes = [
   {
     path: 'Login',
-    component:LoginComponentComponent
+    component: LoginComponentComponent
+  }, {
+    path: 'Colaboradores',
+    component: ListaparticipantesComponentComponent
+  }, {
+    path: 'Estabelecimentos',
+    component: ListaestabelecimentosComponentComponent
+  }, {
+    path: 'Necessitados',
+    component: ListanecessitadosComponentComponent
   },
   {
     path: 'QuemSomos',

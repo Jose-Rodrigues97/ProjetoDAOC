@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faTrash, faPenToSquare } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-listanecessitados-component',
@@ -11,5 +13,6 @@ export class ListanecessitadosComponentComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  fatrash = faTrash;
+  fapentosquare = faPenToSquare
 }

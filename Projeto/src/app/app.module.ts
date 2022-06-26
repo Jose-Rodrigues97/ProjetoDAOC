@@ -15,8 +15,9 @@ import { CadastronecessitadoComponentComponent } from './Componentes/cadastronec
 import { CadastroestabelecimentoComponentComponent } from './Componentes/cadastroestabelecimento-component/cadastroestabelecimento-component.component';
 import { LoginComponentComponent } from './Componentes/login-component/login-component.component';
 import { ListaparticipantesComponentComponent } from './Componentes/listaparticipantes-component/listaparticipantes-component.component';
-import { ListanecessitadosComponentComponent } from './listanecessitados-component/listanecessitados-component.component';
-import { ListaestabelecimentosComponentComponent } from './listaestabelecimentos-component/listaestabelecimentos-component.component';
+import { ListanecessitadosComponentComponent } from './Componentes/listanecessitados-component/listanecessitados-component.component';
+import { ListaestabelecimentosComponentComponent } from './Componentes/listaestabelecimentos-component/listaestabelecimentos-component.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ListaestabelecimentosComponentComponent } from './listaestabelecimentos
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
