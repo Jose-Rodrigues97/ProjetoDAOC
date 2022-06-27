@@ -18,6 +18,7 @@ import { ListaparticipantesComponentComponent } from './Componentes/listapartici
 import { ListanecessitadosComponentComponent } from './Componentes/listanecessitados-component/listanecessitados-component.component';
 import { ListaestabelecimentosComponentComponent } from './Componentes/listaestabelecimentos-component/listaestabelecimentos-component.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TabComponentComponent } from './Componentes/tab-component/tab-component.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     LoginComponentComponent,
     ListaparticipantesComponentComponent,
     ListanecessitadosComponentComponent,
-    ListaestabelecimentosComponentComponent
+    ListaestabelecimentosComponentComponent,
+    TabComponentComponent
   ],
   imports: [
     BrowserModule,

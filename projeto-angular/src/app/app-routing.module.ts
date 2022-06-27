@@ -1,5 +1,6 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AppComponent } from './app.component';
 import { CadastrodoadorComponentComponent } from './Componentes/cadastrodoador-component/cadastrodoador-component.component';
 import { CadastroestabelecimentoComponentComponent } from './Componentes/cadastroestabelecimento-component/cadastroestabelecimento-component.component';
 import { CadastronecessitadoComponentComponent } from './Componentes/cadastronecessitado-component/cadastronecessitado-component.component';
@@ -10,23 +11,12 @@ import { ListaparticipantesComponentComponent } from './Componentes/listapartici
 import { LoginComponentComponent } from './Componentes/login-component/login-component.component';
 import { PorquedoarComponent } from './Componentes/porquedoar-component/porquedoar.component';
 import { QuemsomosComponent } from './Componentes/quemsomos-component/quemsomos.component';
+import { TabComponentComponent } from './Componentes/tab-component/tab-component.component';
 
 const routes: Routes = [
   {
     path: 'Login',
-    component: LoginComponentComponent,
-  }, {
-    path: 'Colaboradores',
-    component: ListaparticipantesComponentComponent,
-    outlet: "outlet2"
-  }, {
-    path: 'Estabelecimentos',
-    component: ListaestabelecimentosComponentComponent,
-    outlet: "outlet2"
-  }, {
-    path: 'Necessitados',
-    component: ListanecessitadosComponentComponent,
-    outlet: "outlet2"
+    component: LoginComponentComponent
   },
   {
     path: 'QuemSomos',
@@ -51,6 +41,20 @@ const routes: Routes = [
   {
     path: 'CadastroEstabelecimento',
     component: CadastroestabelecimentoComponentComponent
+  }, {
+    path: 'Colaboradores',
+    component: ListaparticipantesComponentComponent,
+    outlet: "outlet2"
+  }
+  , {
+    path: 'Estabelecimentos',
+    component: ListaestabelecimentosComponentComponent,
+    outlet: "outlet2"
+  }
+  , {
+    path: 'Necessitados',
+    component: ListanecessitadosComponentComponent,
+    outlet: "outlet2"
   }
 ];
 
