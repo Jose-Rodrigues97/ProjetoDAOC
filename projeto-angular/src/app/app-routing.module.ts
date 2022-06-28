@@ -5,6 +5,7 @@ import { CadastrodoadorComponentComponent } from './Componentes/cadastrodoador-c
 import { CadastroestabelecimentoComponentComponent } from './Componentes/cadastroestabelecimento-component/cadastroestabelecimento-component.component';
 import { CadastronecessitadoComponentComponent } from './Componentes/cadastronecessitado-component/cadastronecessitado-component.component';
 import { ContatosComponent } from './Componentes/contatos-component/contatos-component.component';
+import { DoacaoComponentComponent } from './Componentes/doacao-component/doacao-component.component';
 import { ListaestabelecimentosComponentComponent } from './Componentes/listaestabelecimentos-component/listaestabelecimentos-component.component';
 import { ListanecessitadosComponentComponent } from './Componentes/listanecessitados-component/listanecessitados-component.component';
 import { ListaparticipantesComponentComponent } from './Componentes/listaparticipantes-component/listaparticipantes-component.component';
@@ -43,18 +44,18 @@ const routes: Routes = [
     component: CadastroestabelecimentoComponentComponent
   }, {
     path: 'Colaboradores',
-    component: ListaparticipantesComponentComponent,
-    outlet: "outlet2"
+    component: ListaparticipantesComponentComponent
   }
   , {
     path: 'Estabelecimentos',
-    component: ListaestabelecimentosComponentComponent,
-    outlet: "outlet2"
+    component: ListaestabelecimentosComponentComponent
   }
   , {
     path: 'Necessitados',
-    component: ListanecessitadosComponentComponent,
-    outlet: "outlet2"
+    component: ListanecessitadosComponentComponent
+  },{
+    path: 'DoeAgora',
+    component: DoacaoComponentComponent
   }
 ];
 
